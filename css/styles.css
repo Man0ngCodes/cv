@@ -1,0 +1,34 @@
+    body{ 
+        background-color: #FAF8F1;
+        font-family:monospace;
+        font-weight:lighter;
+    }
+    h1{
+        color: #C58940;
+        font-family: cursive;
+    }   
+    h3{
+        color: #C58940;
+        font-family: cursive;
+    }
+    hr{
+        background-color: #FAF8F1; 
+        border: none;
+        border-top-style: dotted;
+        border-color: grey;
+        border-width: 5px;
+        height: 0px;
+        width: 8%;
+    }
+    img{background-color: white;
+        height: 160px;
+        width: auto;
+        size: 50px;
+        border-radius: 100%;
+    }
+
+
+    img:hover{
+        background-color: goldenrod;
+    }
+
