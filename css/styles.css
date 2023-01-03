@@ -1,34 +1,66 @@
-    body{ 
-        background-color: #FAF8F1;
-        font-family:monospace;
-        font-weight:lighter;
-    }
-    h1{
-        color: #C58940;
-        font-family: cursive;
-    }   
-    h3{
-        color: #C58940;
-        font-family: cursive;
-    }
-    hr{
-        background-color: #FAF8F1; 
-        border: none;
-        border-top-style: dotted;
-        border-color: grey;
-        border-width: 5px;
-        height: 0px;
-        width: 8%;
-    }
-    img{background-color: white;
-        height: 160px;
-        width: auto;
-        size: 50px;
-        border-radius: 100%;
-    }
+body{
+    background-color: #EAFDFC;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
 
+h1{
+    margin: 0 auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+}
 
-    img:hover{
-        background-color: goldenrod;
-    }
+h2{
+    font-family: 'Barlow Condensed', sans-serif;
+}
 
+h3{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.top-container{
+    padding-top: 100px;
+    position: relative;
+}
+
+.cloud1{
+    position: absolute;
+    top: 5%;
+    right: 25%;
+}
+
+.cloud2{
+    position: absolute;
+    bottom: 60%;
+    left: 25%;
+}
+
+.mountain{
+    background-color: #BFEAF5;
+    border-radius: 100%;
+}
+
+.mountain:hover{
+    background-color: gold;
+}
+
+.profile-image{
+    background-color: #BFEAF5;
+    margin-bottom: 0px;
+    border-radius: 50%;
+    border-style: none;
+}
+
+.profile-image:hover{
+    background-color: gold;
+}
+
+hr{
+    border-style: dotted none none none;
+    background-color: #EAFDFC;
+    border-width: 8px;
+    color: grey;
+    height: 0;
+    width: 5%;
+    margin-bottom: 250px;
+    margin-top: 250px;
+}
